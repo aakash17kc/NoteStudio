@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="true"
+
+>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+           android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+
+            android:id="@+id/root"
+            android:elevation="1dp"
+            android:translationZ="1dp"
+            android:background="@drawable/border2"
+
+            android:focusableInTouchMode="true"
+    >
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+
+                      android:focusableInTouchMode="true"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+
+        >
+            <ImageView android:layout_width="0dp" android:layout_height="45dp"
+                       android:src="@drawable/outline_menu_black_36"
+                       android:layout_weight="1"
+
+
+                       android:id="@+id/nav_drawer" />
+
+            <TextView android:layout_width="0dp" android:layout_height="45dp"
+                      android:hint="@string/search_notes" android:id="@+id/searchnotes"
+                      android:layout_weight="9"
+                      android:gravity="center_vertical"
+                      android:textSize="18sp"
+                      android:paddingLeft="15dp"
+                      android:layout_marginEnd="14dp"
+
+
+            />
+            <ImageView android:layout_width="0dp" android:layout_height="45dp"
+                       android:src="@drawable/outline_view_agenda_black_36"
+                       android:layout_weight="1"
+                       android:id="@+id/noteView"
+                       android:layout_marginRight="15dp"/>
+            <ImageView android:layout_width="0dp" android:layout_height="45dp"
+                       android:src="@drawable/outline_account_circle_black_36"
+                       android:layout_weight="1"
+                       android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

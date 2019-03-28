@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+            android:icon="@drawable/outline_notifications_none_black_24"
+            android:title="@string/reminder"
+            android:id="@+id/reminder"
+            app:showAsAction="always" />
+    <item
+            android:icon="@drawable/outline_palette_black_24"
+            android:title="Palette"
+            android:id="@+id/palette"
+            app:showAsAction="always"/>
+    <item android:title="Archive"
+          android:id="@+id/archive"/>
+    <item android:title="Delete"
+          android:id="@+id/delete"/>
+    <item android:title="Share"
+          android:id="@+id/share"/>
+
+
+
+</menu>
